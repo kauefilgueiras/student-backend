@@ -23,5 +23,9 @@
       "build": "tsc -p .",
       "dev": "nodemon src/index.ts",
       "start": "cd dist && node src/index.js"
-   }
+   },
+   "engines": {
+      "node": ">=0.12"
+   },
+   "engineStrict": true
 }
