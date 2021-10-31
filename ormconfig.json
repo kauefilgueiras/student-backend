@@ -1,0 +1,25 @@
+{
+   "type": "postgres",
+   "host": "chunee.db.elephantsql.com",
+   "port": 5432,
+   "username": "zpslgrdg",
+   "password": "pefm3WRUjv4DiphJq7ik_lQzSgF3QlKm",
+   "database": "zpslgrdg",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "./src/entity/*"
+   ],
+
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
